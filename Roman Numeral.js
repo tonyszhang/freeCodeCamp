@@ -1,3 +1,5 @@
+// Copyright 2017 Tony S. Zhang, all rights reserved
+
 function convertToRoman(num) {
 
 	var M = Math.floor(num/1000);
@@ -35,3 +37,5 @@ function convertToRoman(num) {
 	}
 	return str.join("");
 }
+
+console.log(convertToRoman(2001));
